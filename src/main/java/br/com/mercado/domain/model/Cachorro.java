@@ -1,16 +1,16 @@
 package br.com.mercado.domain.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @ToString
+@NoArgsConstructor
 public class Cachorro {
 
+
+    private Long id;
     private String raca;
     private String discricao;
     double tamanhoMin;
