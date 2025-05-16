@@ -1,15 +1,10 @@
-package br.com.mercado.domain.model;
+package br.com.mercado.domain.dto;
 
-import lombok.*;
+import lombok.Getter;
 
 @Getter
-@Setter
-@AllArgsConstructor
-@ToString
-@NoArgsConstructor
-public class Cachorro {
+public class CachorroRequest {
 
-    private Long id;
     private String raca;
     private String discricao;
     double tamanhoMin;
@@ -17,5 +12,4 @@ public class Cachorro {
     int pesoMin;
     int pesoMax;
     private int energia;
-
 }
